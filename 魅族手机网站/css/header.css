@@ -1,0 +1,91 @@
+/* header区域 */
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #fafafc;
+    line-height: 40px;
+}
+
+.header-c {
+    height: 40px;
+}
+
+/* header-left */
+.header-c .header-left {
+    float: left;
+}
+
+.header-c .header-left a {
+    float: left;
+    color: #666666;
+}
+
+.header-c .header-left a:hover {
+    color: #0CBBEF;
+}
+
+.header-c .header-left .website {
+    margin-right: 46px;
+}
+
+.header-c .header-left .mall {
+    margin-right: 46px;
+}
+
+.header-c .header-left .flyme {
+    margin-right: 46px;
+}
+
+.header-c .header-left .shop {
+    margin-right: 46px;
+}
+
+.header-c .header-left .service {
+    margin-right: 46px;
+}
+
+.header-c .header-left .community {
+    margin-right: 46px;
+}
+
+/* header-right */
+.header-c .header-right {
+    float: right;
+}
+
+.header-c .header-right a {
+    float: left;
+    color: #666666;
+}
+
+.header-c .header-right a:hover {
+    color: #0CBBEF;
+}
+
+.header-c .header-right .favorites {
+    display: block;
+    position: relative;
+    margin-right: 42px;
+}
+
+.header-c .header-right .favorites .tips {
+    position: absolute;
+    top: 14px;
+    margin-right: 39px;
+    width: 32px;
+    height: 12px;
+    background-color: #ED4462;
+    clip-path: polygon(0% 50%, 25% 0%, 100% 0%, 100% 100%, 25% 100%);
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.header-c .header-right .orders {
+    margin-right: 42px;
+}
+
+.header-c .header-right .login {
+    margin-right: 42px;
+}

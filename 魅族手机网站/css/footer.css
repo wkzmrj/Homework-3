@@ -1,0 +1,78 @@
+.footer {
+    width: 100%;
+    height: 186px;
+    background-color: #FAFAFC;
+}
+
+.footer .footer-c {
+    width: 1235px;
+    height: 114px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+/* contact */
+.footer .footer-c .contact {
+    float: left;
+    width: 987px;
+    padding-left: 55px;
+    height: 114px;
+}
+
+.footer .footer-c .contact dl {
+    float: left;
+    width: 246px;
+}
+
+.footer .footer-c .contact dl dt {
+    height: 32px;
+    margin-left: 100px;
+    margin-right: 3px;
+    font-size: 12px;
+    color: black;
+}
+
+.footer .footer-c .contact dl dd a {
+    display: block;
+    font-size: 11px;
+    line-height: 24px;
+    color: #6b6d6d;
+    text-align: center;
+}
+/* service */
+.footer .footer-c .service {
+    display: left;
+    width: 246px;
+    height: 114px;
+    margin-top: -25px;
+    margin-left: 1054px;
+}
+.footer .footer-c .service h4{
+    margin-top: 29px;
+    margin-bottom: 19px;
+    font-size: 11px;
+    line-height: 23px;
+    text-align: center;
+}
+.footer .footer-c .service span {
+    width: 160px;
+    margin-left: 41px;
+    margin-bottom: 7px;
+    font-size: 21px;
+    color:skyblue;
+    line-height: 30px;
+}
+.footer .footer-c .service a {
+    display: flex;
+    width: 160px;
+    height: 34px;
+    margin-left: 41px;
+    margin-top: 9px;
+    margin-bottom: 32px;
+    border-radius: 6px;
+    background-color: skyblue;
+    font-size: 11px;
+    line-height: 52px;
+    align-items: center;
+    justify-content: center;
+}

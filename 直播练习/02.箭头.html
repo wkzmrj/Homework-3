@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #arrow1 {
+        width: 300px;
+        height: 150px;
+        border: 1px solid rebeccapurple;
+        background:
+        linear-gradient(-135deg, red 50px, green 50px) 100% 0%,
+        linear-gradient(-45deg,red 50px, green 50px)100% 100%;
+
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+
+    }
+
+    #arrow2 {
+      width: 300px;
+      height: 150px;
+      border: 1px solid red;
+      background-color: salmon;
+      background-size: 100%;
+
+      clip-path: polygon(
+        0% 0%,
+        calc(100% - 70px) 0%,
+        100% 50%,
+        calc(100% - 70px) 100%,
+        0% 100%
+      );
+    }
+</style>
+</head>
+<body>
+    <div id="arrow1"></div>
+    <div id="arrow2"></div>
+</body>
+</html>

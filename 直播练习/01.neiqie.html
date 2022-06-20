@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 400px;
+            height: 300px;
+            border: 1px solid red;
+            background:
+            radial-gradient(circle at 0% 0%, red 70px, pink 70px)0% 0%,
+            radial-gradient(circle at 100% 0%, red 70px, pink 70px)100% 0%, 
+            radial-gradient(circle at 100% 100%, red 70px, pink 70px)100% 100%, 
+            radial-gradient(circle at 0% 100%, red 70px, pink 70px)0% 100%;
+            /* background position 0% */
+            background-size: 52% 52%;
+            /* 背景填充大小设置：background-size */
+            background-repeat:no-repeat;
+        }
+         /* 记住是设计背景的图片所以用背景的属性标签设计 */
+         
+        
+    </style>
+</head>
+<body>
+    <!-- 背景的渐变元素 
+    linear-gradient
+    radial-gradient
+    conic-gradient-->
+    <div id="box">
+        内切圆角的设计
+    </div>
+</body>
+</html>

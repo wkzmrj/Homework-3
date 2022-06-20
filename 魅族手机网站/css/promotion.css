@@ -1,0 +1,165 @@
+.promotion {
+    width: 100%;
+    height: 175px;
+}
+
+.promotion .inner-c {
+    height: 175px;
+    margin-left: 67px;
+    background-color: #fff;
+}
+
+/* aside */
+.promotion .inner-c .aside {
+    float: left;
+    width: 245px;
+    height: 145px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 0px;
+    background-color: #F9F9F9;
+}
+
+.promotion .inner-c .aside .aside-top {
+    width: 245px;
+    height: 86px;
+}
+
+.promotion .inner-c .aside .aside-top .icon01 {
+    float: left;
+    width: 48px;
+    height: 41px;
+    margin-left: 37px;
+    margin-right: 75px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.promotion .inner-c .aside .aside-top .icon01 .icon-logo {
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.promotion .inner-c .aside .aside-top .icon01 .icon-logo img {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}
+
+.promotion .inner-c .aside .aside-top .icon01 .name {
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    color: #313131;
+}
+
+.promotion .inner-c .aside .aside-top .icon02 {
+    float: left;
+    width: 48px;
+    height: 41px;
+    margin-right: 37px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.promotion .inner-c .aside .aside-top .icon02 .icon-logo {
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.promotion .inner-c .aside .aside-top .icon02 .icon-logo img {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}
+
+.promotion .inner-c .aside .aside-top .icon02 .name {
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    color: #313131;
+}
+
+.promotion .inner-c .aside .aside-bottom {
+    width: 245px;
+    height: 53px;
+}
+
+.promotion .inner-c .aside .aside-bottom .icon03 {
+    float: left;
+    width: 48px;
+    height: 41px;
+    margin-left: 37px;
+    margin-right: 75px;
+    margin-bottom: 12px;
+}
+
+.promotion .inner-c .aside .aside-bottom .icon03 .icon-logo {
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.promotion .inner-c .aside .aside-bottom .icon03 .icon-logo img {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}
+
+.promotion .inner-c .aside .aside-bottom .icon03 .name {
+    font-size: 12px;
+    margin: 0;
+    width: 61px;
+    text-align: center;
+    transform: translateX(-7px);
+    color: #313131;
+}
+
+.promotion .inner-c .aside .aside-bottom .icon04 {
+    float: left;
+    width: 48px;
+    height: 41px;
+    margin-right: 37px;
+    margin-bottom: 12px;
+}
+
+.promotion .inner-c .aside .aside-bottom .icon04 .icon-logo {
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.promotion .inner-c .aside .aside-bottom .icon04 .icon-logo img {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}
+
+.promotion .inner-c .aside .aside-bottom .icon04 .name {
+    font-size: 12px;
+    margin: 0;
+    width: 61px;
+    text-align: center;
+    transform: translateX(-7px);
+    color: #313131;
+}
+
+/* banner */
+.promotion .inner-c .promotionbanner {
+    width: 1100px;
+    height: 175px;
+    margin-left: 250px;
+    margin-top: 5px;
+}
+
+.promotion .inner-c .promotionbanner ul {
+    float: left;
+    width: 1000px;
+    height: 175px;
+    margin-top: 5px;
+}
+.promotion .inner-c .promotionbanner ul img {
+    float: left;
+    display: block;
+    width: 243px;
+    margin-right: 6px;
+}
+

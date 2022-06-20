@@ -1,0 +1,157 @@
+.detail {
+    width: 100%;
+    height: 471px;
+    background-color: #F5F5F5;
+}
+
+.detail .detail-c {
+    width: 1235px;
+    height: 410px;
+}
+
+.detail .detail-c .title {
+    width: 1235px;
+    float: left;
+    height: 72px;
+}
+
+.detail .detail-c .title .detail-title {
+    position: relative;
+    width: 1235px;
+    height: 72px;
+}
+
+.detail .detail-c .title .detail-title span {
+    position: absolute;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 44px;
+    margin-left: 67px;
+}
+
+.detail .detail-c .title .detail-title a {
+    float: right;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: -50px;
+    margin-bottom: 29px;
+    margin-top: 49px;
+}
+
+.detail .detail-c .title .detail-title img {
+    float: right;
+    width: 9px;
+    height: 14px;
+    margin-right: -59px;
+    margin-bottom: 29px;
+    margin-top: 49px;
+}
+
+/* products */
+.detail .detail-c .products {
+    width: 1235px;
+    height: 338px;
+}
+
+.detail .detail-c .products ul {
+    position: relative;
+    width: 1235px;
+    height: 338px;
+}
+
+.detail .detail-c .products ul li {
+    float: left;
+    display: block;
+    width: 243px;
+    height: 338px;
+    margin-left: 67px;
+    margin-top: 24px;
+    margin-right: -65px;
+    background-color: #fff;
+}
+
+.detail .detail-c .products ul .product-top {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 16px 122px 28px 16px;
+}
+
+.detail .detail-c .products ul .product-top span {
+    position: absolute;
+    top: 16px;
+    margin-left: 171px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F59646;
+    text-align: center;
+    font-size: 14px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+}
+
+.detail .detail-c .products ul .product-top img {
+    display: block;
+    width: 127px;
+    height: 152px;
+    margin-top: 37px;
+    margin-left: 28px;
+}
+
+.detail .detail-c .products ul .product-bottom {
+    width: 200px;
+    height: 96px;
+}
+
+.detail .detail-c .products ul .product-bottom .product {
+    position: relative;
+    width: 127px;
+    height: 96px;
+}
+
+.detail .detail-c .products ul .product-bottom .product p {
+    position: absolute;
+    width: 67px;
+    height: 15px;
+    margin-top: 242px;
+    margin-left: 50%;
+    transform: translateX(25%);
+    font-size: 12px;
+    text-align: center;
+}
+
+.detail .detail-c .products ul .product-bottom .product .date {
+    position: absolute;
+    width: 150px;
+    height: 11px;
+    transform: translateX(50%) translateX(-25%);
+    margin-top: 257px;
+    font-size: 11px;
+    line-height: 33px;
+    text-align: center;
+    color: #9E9D9C;
+}
+.detail .detail-c .products ul .product-bottom .product .price {
+    position: absolute;
+    width: 7px;
+    height: 9px;
+    top: 294px;
+    margin-left: 50%;
+    transform: translateX(500%);
+    font-size: 9px;
+    line-height: 0%;
+    color: red;
+}
+.detail .detail-c .products ul .product-bottom .product .number {
+    position: absolute;
+    width: 27px;
+    height: 12px;
+    top: 294px;
+    margin-left: 50%;
+    transform: translateX(160%);
+    font-size: 9px;
+    line-height: 0%;
+    color: red;
+}

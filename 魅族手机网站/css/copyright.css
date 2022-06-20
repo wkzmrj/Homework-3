@@ -1,0 +1,65 @@
+.copyright {
+    width: 100%;
+    height: 115px;
+}
+
+.copyright .copyright-c {
+    width: 1015px;
+    height: 80px;
+    padding-top: 31px;
+    padding-bottom: 37px;
+    font-size: 12px;
+    color: #6b6d6d;
+    position: relative;
+}
+
+.copyright .copyright-c .Co {
+    float: left;
+    margin-left: 235px;
+    margin-right: 17px;
+}
+
+.copyright .copyright-c .beian {
+    position: absolute;
+    margin-left: 621px;
+    margin-right: 17px;
+}
+
+.copyright .copyright-c .franchisenum {
+    position: absolute;
+    margin-left: 817px;
+    margin-right: 17px;
+    white-space: nowrap;
+}
+
+.copyright .copyright-c .license {
+    position: absolute;
+    margin-left: 1022px;
+    margin-right: 17px;
+    white-space: nowrap;
+}
+
+.copyright .copyright-c .license span {
+    position: absolute;
+}
+
+.copyright .copyright-c .license .bao {
+    position: absolute;
+    background-image: url(../images/1450855198-58056.png) no-repeat 0 0;
+    background-size: 15px 18px;
+    margin-left: 1080px;
+}
+
+.copyright .copyright-c .license .footercopy1 {
+    position: absolute;
+    background-image: url(../images/1450855198-58056.png) no-repeat 0 0;
+    background-size: 15px 18px;
+
+}
+
+.copyright .copyright-c .license .trusticon {
+    position: absolute;
+    background-image: url(../images/trust-icon.png) no-repeat 0 0; 
+    background-size: 15px 18px;
+    margin-left: 18px;
+}

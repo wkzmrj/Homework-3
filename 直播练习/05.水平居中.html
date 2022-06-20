@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            width: 300px;
+            height: 100px;
+            border: 1px solid red;
+
+        }
+
+        .child {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+
+        /* 1.文字居中 */
+        .p1 {
+            text-align: center;
+        }
+
+        /* 2.行内块元素居中 */
+        .p2 {
+            text-align: center;
+        }
+
+        /* 上面的行内居中设置不能去掉 */
+        .c2 {
+            display: inline-block;
+        }
+
+        /* 3. margin的居中--外边距 */
+        .c3 {
+            margin: 0 auto;
+        }
+
+        /* 4. 弹性盒模型 */
+        .p4 {
+            display: flex; justify-content:center;
+        }
+        /* 5.使用内部定位 */
+        .p5 {
+            display: block;
+            position: relative;
+        }
+        .c5 {
+            position: absolute;
+            /* left: 50%;
+            transform: translate(-50%); */
+            /* 或者使用定义左右0 */
+            left: 0%;
+            right: 0%;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="parent p5">
+        <div class="child c5"></div>
+    </div>
+    <div class="parent p4">
+        <div class="child c4"></div>
+    </div>
+    <div class="parent p3">
+        <div class="child c3"></div>
+    </div>
+
+    <div class="parent p2">
+        <div class="child c2"></div>
+    </div>
+
+    <div class="parent p1">水平居中
+    </div>
+</body>
+
+</html>
